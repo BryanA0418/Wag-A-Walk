@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'sf_arch_rival_extendedregular';
+    src: url('../assets/Fonts/SF_Arch_Rival_Extended-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nav{
+    font-family: 'sf_arch_rival_extendedregular';
+    display: flex;
+    /* margin-left: 15px; */
+    gap: 100px;
+    background-color: #fcc9b5;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+.fa-paw{
+    font-size: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.fa-bars{
+    font-size: 30px;
+    cursor: pointer;
+}
+.nav-header{
+    cursor: pointer;
+}

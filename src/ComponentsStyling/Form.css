@@ -1,0 +1,67 @@
+.dog-form {
+  grid-row: 2;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* width: 100px;
+  margin-top: 100px; */
+  /* height: 700px; */
+  position: relative;
+}
+form {
+  border: 1px none rgb(244, 245, 246);
+  width: 50vw;
+  margin: 0 auto;
+  height: 35vh;
+  padding: 15px;
+  border-radius: 8px;
+  position: absolute;
+  background-color: white;
+  right: 470px;
+}
+.animal {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(244, 245, 246);
+  height: 35px;
+  box-sizing: border-box;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.dog-form_icons {
+  height: 100px;
+  padding: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+}
+.dog-form_services {
+  display: flex;
+  justify-content: space-evenly;
+}
+input {
+  cursor: pointer;
+}
+.dog-form_container {
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.walker {
+  text-align: center;
+}
+p {
+  font-size: 20px;
+}
+.radio-buttons {
+  font-size: 20px;
+}
+.background-image {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    object-fit: contain;
+}
